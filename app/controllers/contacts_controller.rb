@@ -13,7 +13,7 @@ class ContactsController < ApplicationController
       else
       render :new
     end
-  end
+    end
   end
 
 end
