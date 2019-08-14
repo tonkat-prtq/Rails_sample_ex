@@ -4,6 +4,6 @@ Rails.application.routes.draw do
       post :confirm
     end
   end
-  root 'contacts#new'
+  root 'blogs#index'
   resources :contacts, only: [:new, :create]
 end
